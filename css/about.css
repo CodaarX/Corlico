@@ -113,7 +113,7 @@ p{
     font-weight: bold;
 }
 
-@media (max-width: 800px){
+@media (max-width: 8600px){
     #about-section{
         display: flex;
         flex-direction: column;     
@@ -131,20 +131,34 @@ p{
         
     }
 
-
-    #header-nav ul{
-        display: flex;
+    #logo{
+        color: white;
         font-family: Arial, Helvetica, sans-serif;
-        align-items: center;
+        font-size: 1.5rem;
     }
 
-    #header-nav li{
+    #header-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        max-width: 80%;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+
+    .btn{
+        padding: 1rem 0.5rem;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
         font-size: 1rem;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        color: #e66611;
+        background-color:#e66611;  
     }
-
-    
 }
 
 
